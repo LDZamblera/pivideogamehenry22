@@ -22,11 +22,13 @@
 .button{
   padding: 10px 10px;
   border: 2px solid ;
+  background-color: black;
 }
 
 .button:hover{
   background-color: yellow;
   padding: 13px 13px;
+  color: black;
 }
 
 .label{
