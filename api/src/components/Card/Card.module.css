@@ -1,0 +1,60 @@
+.container{
+    box-sizing: border-box;
+    background: "../../img/imagen-home.jpg";
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15%;
+    border: 2px solid yellow;
+    box-shadow: 5px 5px 5px rgb(31, 51, 181);
+    text-decoration: none;
+    height : 65vh;
+}
+
+.container:hover{
+    border: 4px yellow solid;
+    padding: 25px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    
+}
+.img{
+    width: 80%;
+    height: 80%;
+    max-height: 250px;
+    border-radius: 30%;
+}
+
+.img:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    border: 2px yellow solid;
+    filter: saturate(170%);
+    border: 3px yellow  solid;
+}
+
+.text{
+    color: rgb(246, 246, 5);
+    text-align: none;
+    text-decoration: none;
+    font-size: 120%;
+    margin: 10px;
+    
+}
+
+.text:hover{
+    font-size: 180%;
+}
+
+.card{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .title{
+    
+        background-color: black;
+    
+} */

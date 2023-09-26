@@ -1,0 +1,106 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.989);
+    
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 100%;
+    margin:0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   
+}
+
+.containerImg{
+  
+   background-size: cover;
+   /* background-position: center; */
+   
+   margin-top: 0;
+   padding-top: 0;
+}
+.image{
+    height: auto;
+    width: 120%;
+    float: left;
+    border-radius: 5%;
+   
+}
+
+.image:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    border: 2px yellow solid;
+    filter: saturate(180%);
+   
+}
+
+.platform{
+    background-color: black;
+    width: 70%;
+    /* padding: 1px; */
+    /* margin-right: 60%; */
+    margin-left: 20px;
+}
+.platformLetter{
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+}
+.details{
+    margin-bottom: 0;
+    color: red;
+    
+}
+.button{
+    border-radius: 10px;
+    padding:15px;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+.buttonContainer{
+text-align: right;
+margin-right: 20px;
+margin-top: 20px;
+
+}
+.rigth{
+    padding: 10px;
+}
+.description{
+    font-weight: bold;
+    font-size: large;
+    color:  rgb(230, 250, 8);;
+    
+}
+
+
+.form{
+    box-sizing: border-box;
+    background-color: rgba(10, 35, 54, 0.989);
+    margin: 5% 10% 5% 10%;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 5px rgb(31, 51, 181);
+    text-decoration: none;
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+.bg{
+    background-color: rgba(19, 54, 80, 0.989);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.label{
+    color: rgb(221, 218, 214);
+    font-weight: bold;
+  }

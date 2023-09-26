@@ -1,0 +1,105 @@
+.bg{
+  background : black;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20 px;
+}
+.container{
+  box-sizing: border-box;
+  background-color: rgba(10, 35, 54, 0.989);
+  margin: 5% 10% 5% 10%;
+  border-radius: 5%;
+  border: 2px solid yellow;
+  box-shadow: 5px 5px 5px rgb(31, 51, 181);
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+
+.button{
+  padding: 10px 10px;
+  border: 2px solid ;
+}
+
+.button:hover{
+  background-color: yellow;
+  padding: 13px 13px;
+}
+
+.label{
+  color: rgb(255, 251, 4);
+  font-weight: bold;
+  font-size: 15 px;
+}
+.platformText{
+  color: rgb(221, 218, 214);
+  font-weight: bold;
+  font-size: medium;
+}
+.new{
+  color: rgb(198, 247, 0);
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+.error{
+  color:red;
+  margin:0;
+  font-size: small;
+}
+.error2{
+  color:red;
+  margin:0;
+  font-size: large;
+}
+.lista{
+  display: inline-flex;
+  font-weight: bold;
+  color: white;
+}
+.buttonX {
+  border-radius: 0.7rem;
+  border: solid 2px #191630;
+  background-color: #6f5c7d;
+  padding: 5px 5px;
+}
+.inputDescription {
+  padding: 1rem;
+  height: 50px;
+  width: 90%;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px rgb(31, 51, 181);
+  background-color: #191630;
+  color: #42bcd5;
+  font-size: 12px;
+ 
+}
+.input{
+  width: 76%;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px rgb(31, 51, 181);
+  background-color: #191630;
+  color: #42bcd5;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+.inputDate{
+  height: 20px;
+  width: 76%;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 2px rgb(31, 51, 181);
+  background-color: #191630;
+  color: white;
+  font-size: 12px;
+  padding: 5 px 5px;
+}

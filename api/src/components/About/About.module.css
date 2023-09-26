@@ -1,0 +1,107 @@
+.about {
+  color: yellow;
+  
+}
+
+
+.container_about{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 100vh;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  color: yellow;
+  
+}
+
+
+.conteiner{
+  width: 600px;
+  border-radius: 20px;
+  border: 2px yellow solid;
+  padding: 15px 15px;
+}
+
+.conteiner_principal{
+  display: flex;
+  width: 600px;
+  border: 2 px yellow;
+}
+
+.conteiner_tecnologias{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.conteiner_tecnologias:hover{
+  border: 4px solid yellow;
+  
+
+}
+
+
+.image_principal{
+  width: 250px;
+}
+
+.image_tecnologias{
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border: 4px black;
+
+}
+
+.text_title{
+  display: inline;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'VT323', monospace;
+  padding: 5px 0px 5px 10px;
+  color: yellow;
+  
+}
+
+.text_title:hover{
+  font-size: 2.5rem;
+}
+
+.text_cita{
+  font-size: .8rem;
+  font-weight: bold;
+  font-family: 'VT323', monospace;
+  padding: 20px 20px 25px 20px;
+  color: yellow
+  
+}
+
+
+.text{
+  font-size: .9rem;
+  text-align: justify;
+  font-weight: bold;
+  font-family: 'VT323', monospace;
+  padding: 0px 0px 5px 10px;
+  color: yellow
+}
+
+.button{
+  padding: 10px 10px;
+  border: 2px solid ;
+}
+
+.button:hover{
+  background-color: yellow;
+  padding: 12px 12px;
+  border: 3 px black solid;
+}

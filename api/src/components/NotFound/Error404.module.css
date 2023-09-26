@@ -1,0 +1,19 @@
+
+.image{
+    width: 100vh;
+   
+    /* margin-left: 30%; */
+    border-radius: 15px;
+   
+}
+.button:hover{
+    background-color: blue;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    left: -33%;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}

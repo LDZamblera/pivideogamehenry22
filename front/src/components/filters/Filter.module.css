@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  color: black; /* Letra negra */
+  font-size: 15px; /* Tamaño de fuente 15px */
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  background-color: yellow;
+  font-size: 15px;
+}
+
+.filter select {
+  padding: 10px; /* Aumento de padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Transición para el efecto hover */
+}
+
+/* Estilo de hover para los selectores */
+.filter select:hover {
+  background-color: red; /* Color de fondo rojo al hacer hover */
+}
