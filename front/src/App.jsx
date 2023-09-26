@@ -11,6 +11,7 @@ import About from "./components/About/About"
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Routes>
           <Route path='/' element={<LandingPage />} />
@@ -20,7 +21,8 @@ function App() {
           <Route path='/createGame' element={<Create />} />
         </Routes>
       </Router>
-    </div>
+      </div>
+   
   );
 }
 

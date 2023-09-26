@@ -1,10 +1,11 @@
 .about {
-  color: yellow;
-  
+  color: yellow ;
+  background-image: url('imagen-home.jpg');
 }
 
 
 .container_about{
+  border: 2 px solid;
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -23,12 +24,15 @@
   border-radius: 20px;
   border: 2px yellow solid;
   padding: 15px 15px;
+  background-color: black;
 }
 
 .conteiner_principal{
   display: flex;
   width: 600px;
   border: 2 px yellow;
+  background-color: black;
+  border: 2 px yellow solid;
 }
 
 .conteiner_tecnologias{

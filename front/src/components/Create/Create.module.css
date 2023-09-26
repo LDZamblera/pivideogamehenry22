@@ -1,5 +1,5 @@
 .bg{
-  background : black;
+  background-image: url('LandingPage.jpg');
     background-size: cover;
     display: flex;
     align-items: center;

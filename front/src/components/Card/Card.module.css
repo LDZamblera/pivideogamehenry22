@@ -1,6 +1,6 @@
 .container{
     box-sizing: border-box;
-    background: "../../img/imagen-home.jpg";
+    background-image: url('imagen-home.jpg');
     padding: 20px;
     margin: 20px;
     border-radius: 15%;
