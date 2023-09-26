@@ -28,19 +28,19 @@ export default function SearchBar({setCurrentPage}){
     
 
     return (
-        <div className={"hd"} >
-            <form >
-                <input
-                    className="input"
-                    type="text"
-                    placeholder="Search your Videogame"
-                    id="name"
-                    autoComplete="off"
-                    value={name}
-                    onChange={(e) => handleInputChange(e)}
-                />
-                <button onClick ={(e)=> handleSubmit(e)}> Search </button>
-            </form>
+        <div className="hd">
+          <form>
+            <input
+              className="input"
+              type="text"
+              placeholder="Search your Videogame"
+              id="name"
+              autoComplete="off"
+              value={name}
+              onChange={(e) => handleInputChange(e)}
+            />
+            <button onClick={(e) => handleSubmit(e)}>Search</button>
+          </form>
         </div>
-    )
-} 
+      );
+    }

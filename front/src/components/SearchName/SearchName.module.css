@@ -1,6 +1,33 @@
+/* Estilos para la clase "hd" */
 .hd {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     background-color: yellow;
-    padding: 10px 10px;
-}
+    padding: 5px;
+    margin-bottom: 20px; /* Agregado para dar espacio debajo del formulario */
+  }
+  
+  /* Estilos para la clase "input" (para estilizar el campo de entrada) */
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    padding: 7px 7px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón al pasar el mouse por encima */
+  button:hover {
+    background-color: red;
+  }
+  

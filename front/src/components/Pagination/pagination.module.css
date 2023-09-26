@@ -1,5 +1,6 @@
 .containerNav{
     max-width: 100%;
+    color: black;
  }
 
  .number{
@@ -8,6 +9,7 @@
     justify-content: center;
     gap: 10px;
     padding: 10px;
+    color: black;
  }
 
  .button {
@@ -21,11 +23,13 @@
     border: 3px solid black;
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
+    color: black;
    }
    
    .button:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em;
+    border: black 5px solid;
     
    }
    

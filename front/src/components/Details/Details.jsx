@@ -6,7 +6,7 @@ import Loading from "../Loading/Loading";
 import s from './Details.module.css'
 import { useParams } from "react-router-dom";
 
-import image from '../../img/new.jpg'
+
 
 
 
