@@ -6,7 +6,7 @@ import Home from "./components/Home/Home";
 import Details from "./components/Details/Details";
 import Create from "./components/Create/Create";
 import About from "./components/About/About"
-import MainPage from './components/MainPage/MainPage';
+
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/MainPage' element={<MainPage />} /> 
+          <Route path='/home' element={<Home />} />     
           <Route path='/about' element={<About />} />
           <Route path='/videogames/:id' element={<Details />} />
           <Route path='/createGame' element={<Create />} />
